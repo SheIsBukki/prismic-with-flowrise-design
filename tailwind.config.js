@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   content: ["./slices/**/*.{js,ts,vue}"],
   theme: {
     extend: {
@@ -8,4 +8,5 @@ module.exports = {
       },
     },
   },
+  plugins: [],
 };
